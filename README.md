@@ -1,6 +1,8 @@
 # Tegra-Docker
 This repository contains instructions and key files to enable Docker support on NVIDIA Tegra devices, specifically the TX-2.  These instructions should work for the most part for other Tegra devices but we currently only have TX-2 to test with so any feedback on getting this to run on other devices is welcome.
 
+EDIT: There is a script with modifications to enable running Docker with GPU support on the Shield TV.
+
 ## Motivation
 We have recently been looking into TX-2s as a development platform and were very interested in using Docker to enable of our development and deployment scenarios.  I attended GTC 2017 this year and was very excited about some of the nvidia-docker integration and was eager to try these out on the TX-2.  However, once I got back and tried these out I quickly learned that nvidia-docker was not supported on the TX-2 or other Tegra devices and probably would not be in the short term.
 
