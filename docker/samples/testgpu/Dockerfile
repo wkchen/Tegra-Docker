@@ -5,6 +5,7 @@ RUN mkdir /cudaSamples
 
 COPY deviceQuery /cudaSamples/
 COPY bandwidthTest /cudaSamples/
+COPY nbody /cudaSamples/
 COPY oceanFFT/ /cudaSamples/oceanFFT/
 COPY particles/ cudaSamples/particles/
 COPY smokeParticles/ cudaSamples/smokeParticles/
